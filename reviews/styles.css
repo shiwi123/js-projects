@@ -1,0 +1,63 @@
+body{
+    background-color: lightcyan;
+}
+main{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title .underline{
+    width:150px;
+    height:3px;
+    background-color:lightskyblue;
+    margin: auto;
+}
+
+.card{
+    display:flex;
+    background-color:white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    width:25vw;
+    margin-top: 20px;
+    box-shadow: 0 0 10px grey;
+}
+
+img{
+    border-radius: 50%;
+    border:5px solid lightskyblue;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name{
+    text-transform: capitalize;
+}
+#job{
+    color: lightskyblue;
+    text-transform: uppercase;
+}
+#info{
+    text-align: justify;
+}
+.btns{
+    background-color: white;
+    border-width: 0;
+}
+i{
+    color:lightskyblue
+}
+.random-btn{
+    color:skyblue;
+    background-color: #fff;
+    border:2px solid skyblue;
+    border-radius: 5px;
+
+}
